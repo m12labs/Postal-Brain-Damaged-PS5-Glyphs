@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PS5Glyphs/PS5Glyphs.csproj" />
+  </Folder>
+</Solution>

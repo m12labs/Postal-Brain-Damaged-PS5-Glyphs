@@ -1,0 +1,27 @@
+// Sprite index (the N in <sprite=N>) -> overlay in glyphs/, stamped over the Xbox label in that slot.
+// Indices come from InputStringManager's joystick icon table (Xbox element ids) in the game's dump.
+// Unlisted slots stay as drawn: sticks 0/9/12/13/25-28/30-33 and L3/R3 8/11 say "L"/"R",
+// D-pad 16-19, Menu 6 (already the Options icon), mouse 4/20-23/29.
+{
+  "*": {
+    "24": "Cross",
+    "15": "Circle",
+    "2": "Square",
+    "3": "Triangle",
+    "10": "L1",
+    "7": "R1",
+    "14": "L2",
+    "1": "R2",
+    "5": "Create"
+  },
+  // Standalone sprites the menu legends use ("A Confirm", "B Back"); the RightStick ones say "R" and stay.
+  "sprites": {
+    "Input_Xbox_A": "Cross",
+    "Input_Xbox_B": "Circle",
+    "Input_Xbox_X": "Square",
+    "Input_Xbox_Lb": "L1",
+    "Input_Xbox_Rb": "R1",
+    "Input_Xbox_Lt": "L2",
+    "Input_Xbox_Rt": "R2"
+  }
+}
